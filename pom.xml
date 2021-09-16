@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.github.alexm1977</groupId>
+    <artifactId>click-kafka-tst</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <inceptionYear>2021</inceptionYear>
+    <packaging>pom</packaging>
+    <modules>
+        <module>uploader</module>
+    </modules>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <!-- compiler configuration -->
+        <maven.compiler.source>14</maven.compiler.source>
+        <maven.compiler.target>14</maven.compiler.target>
+
+        <!-- dependency versions -->
+        <version.config>1.4.1</version.config>
+        <version.slf4j>1.7.32</version.slf4j>
+        <version.log4j>2.14.1</version.log4j>
+        <version.kafka.client>2.8.0</version.kafka.client>
+
+        <!-- maven plugin versions -->
+        <plugin.version.exec>1.6.0</plugin.version.exec>
+        <plugin.version.shade>3.2.1</plugin.version.shade>
+        <plugin.version.fmt>2.12</plugin.version.fmt>
+        <plugin.version.license>4.1</plugin.version.license>
+    </properties>
+
+</project>
